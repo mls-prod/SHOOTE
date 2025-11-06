@@ -180,7 +180,7 @@ function createInitWindow(url) {
 
   shortcut.register(initWin, "F3", () => {
       var game = initWin.webContents.getURL().split('#').pop();
-      var url = "https://venge.io/#"+game;
+      var url = "https://shootehhhh.vercel.app/#"+game;
       clipboard.writeText(url);
       initWin.webContents.executeJavaScript('pc.app.fire("Chat:Message", "NeXi-Client", "Link copied!")').catch(e=>{});
   })
