@@ -375,8 +375,8 @@ function createInitWindow(url) {
     // !!!!! CHECKS IF LINK IS ALREADY COPIED !!!!!
     let paste = clipboard.readText();
     var choice = question();
-    if (paste.indexOf("venge.io/#") === -1) {
-      paste = "https://venge.io/#00000";
+    if (paste.indexOf("shootehhhh.vercel.app/#") === -1) {
+      paste = "https://shootehhhh.vercel.app/#00000";
       if (choice === 0) {
         input("Play").then((r) => {
           isPaste(r, false);
