@@ -57,7 +57,7 @@ pc.script.createLoadingScreen(function (app) {
         wrapper.appendChild(splash);
         
         var hints = [
-            '"MELISOV PRESENTS'
+            'MELISOV PRESENTS'
          
         ];
         
