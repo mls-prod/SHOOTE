@@ -26,8 +26,8 @@ const customInit = () => {
   hexagonBreak();
   weaponSelectionFix();
   hideWeaponOnADS();
-  //teamModeFixes();
-  //customServer();
+  teamModeFixes();
+  customServer();
   verifiedNeXi();
   customMaxPlayerFormat();
   playMenuMusic();
