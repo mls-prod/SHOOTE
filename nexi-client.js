@@ -54,7 +54,7 @@ const customOnLeaveCallback = () => {
     this.app.mouse.disablePointerLock(),
       Utils.isMobile()
         ? (window.location.href =
-            "https://beta-meta-42746.venge.io/?isMobile=yes&v=" + Math.random())
+            "https://shootehhhh.vercel.app/?isMobile=yes&v=" + Math.random())
         : (window.location.href = "index.html");
   };
 };
